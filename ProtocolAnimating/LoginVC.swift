@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet var emailtf: DataEntryTextField!
+    @IBOutlet var pwtf: DataEntryTextField!
+    @IBOutlet var errorLabel: FlashingLabel!
+    @IBOutlet var enterButton: LogInButton!
 
 }
 
