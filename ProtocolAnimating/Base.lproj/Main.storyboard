@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProtocolAnimating" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -25,10 +25,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pexels-photo-37487" translatesAutoresizingMaskIntoConstraints="NO" id="6Uq-BC-JuN">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <stackView opaque="NO" alpha="0.75" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="08a-FG-Z0j">
-                                <rect key="frame" x="16" y="331" width="343" height="216.5"/>
+                            <stackView opaque="NO" alpha="0.75" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="08a-FG-Z0j">
+                                <rect key="frame" x="16" y="455" width="343" height="212"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2x8-wk-uCi">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2x8-wk-uCi" customClass="DataEntryTextField" customModule="ProtocolAnimating" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="na5-vI-95m"/>
@@ -37,7 +37,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vVK-dY-wfb">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vVK-dY-wfb" customClass="DataEntryTextField" customModule="ProtocolAnimating" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="65" width="343" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="atd-v3-tvz"/>
@@ -46,19 +46,20 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Enter Email And Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnh-cf-DSf">
-                                        <rect key="frame" x="0.0" y="130" width="343" height="21.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Email And Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnh-cf-DSf">
+                                        <rect key="frame" x="0.0" y="130" width="343" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.028078071964938167" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWu-Gu-iD5">
-                                        <rect key="frame" x="0.0" y="166.5" width="343" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWu-Gu-iD5" customClass="LogInButton" customModule="ProtocolAnimating" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="162" width="343" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="cGI-qk-M66"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" red="0.12156862745098039" green="0.35686274509803922" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Enter">
+                                            <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -69,9 +70,10 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Uq-BC-JuN" secondAttribute="bottom" id="6RW-eN-Qxe"/>
                             <constraint firstItem="6Uq-BC-JuN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Bni-qw-Ttk"/>
                             <constraint firstItem="6Uq-BC-JuN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="EGb-ME-bLr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="08a-FG-Z0j" secondAttribute="bottom" id="RV5-TL-ylt"/>
                             <constraint firstAttribute="trailing" secondItem="6Uq-BC-JuN" secondAttribute="trailing" id="eKv-93-ltE"/>
                             <constraint firstItem="08a-FG-Z0j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fqf-K7-Xjf"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="08a-FG-Z0j" secondAttribute="trailing" id="pzF-oU-hhg"/>
+                            <constraint firstItem="08a-FG-Z0j" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zFe-Qq-88F"/>
                         </constraints>
                     </view>
                 </viewController>
