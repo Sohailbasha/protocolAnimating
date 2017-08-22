@@ -32,6 +32,7 @@ class LoginVC: UIViewController {
         pwtf.jitter()
         enterButton.jitter()
         errorLabel.flash()
+        
     }
     
     
