@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD06E8621F4BB573009C6CB4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD06E8611F4BB573009C6CB4 /* UIViewExtension.swift */; };
 		FD8E98481F48DF3800EBAA97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E98471F48DF3800EBAA97 /* AppDelegate.swift */; };
 		FD8E984D1F48DF3800EBAA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E984B1F48DF3800EBAA97 /* Main.storyboard */; };
 		FD8E984F1F48DF3800EBAA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8E984E1F48DF3800EBAA97 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD06E8611F4BB573009C6CB4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		FD8E98441F48DF3800EBAA97 /* ProtocolAnimating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolAnimating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8E98471F48DF3800EBAA97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD8E984C1F48DF3800EBAA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				FD8E98631F48E4D600EBAA97 /* LoginVC.swift */,
+				FD06E8611F4BB573009C6CB4 /* UIViewExtension.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD06E8621F4BB573009C6CB4 /* UIViewExtension.swift in Sources */,
 				FD8E985A1F48E39D00EBAA97 /* DataEntryTextField.swift in Sources */,
 				FD8E985E1F48E3C500EBAA97 /* LogInButton.swift in Sources */,
 				FD8E98601F48E41F00EBAA97 /* FlashingLabel.swift in Sources */,
@@ -330,6 +334,7 @@
 				FD8E98581F48DF3800EBAA97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

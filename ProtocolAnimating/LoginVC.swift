@@ -30,6 +30,8 @@ class LoginVC: UIViewController {
     @IBAction func loginButtonTapped(_ sender: Any) {
         emailtf.jitter()
         pwtf.jitter()
+        enterButton.jitter()
+        errorLabel.flash()
     }
     
     
