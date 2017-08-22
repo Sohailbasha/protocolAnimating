@@ -25,5 +25,14 @@ class LoginVC: UIViewController {
     @IBOutlet var errorLabel: FlashingLabel!
     @IBOutlet var enterButton: LogInButton!
 
+    
+    
+    @IBAction func loginButtonTapped(_ sender: Any) {
+        emailtf.jitter()
+        pwtf.jitter()
+    }
+    
+    
+   
 }
 
