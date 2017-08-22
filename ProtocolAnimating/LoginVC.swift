@@ -8,6 +8,25 @@
 
 import UIKit
 
+class FlashingLabel: UILabel, Flashable {
+    
+}
+
+
+class DataEntryTextField: UITextField, Jitterable {
+    
+}
+
+
+class LogInButton: UIButton, Jitterable {
+    
+}
+
+
+
+
+
+
 class LoginVC: UIViewController {
 
     override func viewDidLoad() {
@@ -32,7 +51,6 @@ class LoginVC: UIViewController {
         pwtf.jitter()
         enterButton.jitter()
         errorLabel.flash()
-        
     }
     
     

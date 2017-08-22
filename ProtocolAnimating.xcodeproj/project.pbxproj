@@ -7,21 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD06E8621F4BB573009C6CB4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD06E8611F4BB573009C6CB4 /* UIViewExtension.swift */; };
 		FD06E8651F4BB691009C6CB4 /* Jitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD06E8641F4BB691009C6CB4 /* Jitterable.swift */; };
 		FD06E8671F4BB699009C6CB4 /* Flashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD06E8661F4BB699009C6CB4 /* Flashable.swift */; };
 		FD8E98481F48DF3800EBAA97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E98471F48DF3800EBAA97 /* AppDelegate.swift */; };
 		FD8E984D1F48DF3800EBAA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E984B1F48DF3800EBAA97 /* Main.storyboard */; };
 		FD8E984F1F48DF3800EBAA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8E984E1F48DF3800EBAA97 /* Assets.xcassets */; };
 		FD8E98521F48DF3800EBAA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E98501F48DF3800EBAA97 /* LaunchScreen.storyboard */; };
-		FD8E985A1F48E39D00EBAA97 /* DataEntryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E98591F48E39D00EBAA97 /* DataEntryTextField.swift */; };
-		FD8E985E1F48E3C500EBAA97 /* LogInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E985D1F48E3C500EBAA97 /* LogInButton.swift */; };
-		FD8E98601F48E41F00EBAA97 /* FlashingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E985F1F48E41F00EBAA97 /* FlashingLabel.swift */; };
 		FD8E98641F48E4D600EBAA97 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E98631F48E4D600EBAA97 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD06E8611F4BB573009C6CB4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		FD06E8641F4BB691009C6CB4 /* Jitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jitterable.swift; sourceTree = "<group>"; };
 		FD06E8661F4BB699009C6CB4 /* Flashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flashable.swift; path = ../Flashable.swift; sourceTree = "<group>"; };
 		FD8E98441F48DF3800EBAA97 /* ProtocolAnimating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolAnimating.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,9 +25,6 @@
 		FD8E984E1F48DF3800EBAA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8E98511F48DF3800EBAA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD8E98531F48DF3800EBAA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD8E98591F48E39D00EBAA97 /* DataEntryTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEntryTextField.swift; sourceTree = "<group>"; };
-		FD8E985D1F48E3C500EBAA97 /* LogInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInButton.swift; sourceTree = "<group>"; };
-		FD8E985F1F48E41F00EBAA97 /* FlashingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashingLabel.swift; sourceTree = "<group>"; };
 		FD8E98631F48E4D600EBAA97 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,14 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD06E8631F4BB632009C6CB4 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				FD06E8611F4BB573009C6CB4 /* UIViewExtension.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
 		FD06E8681F4BB6A7009C6CB4 /* Animation Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +70,6 @@
 				FD8E98471F48DF3800EBAA97 /* AppDelegate.swift */,
 				FD06E8681F4BB6A7009C6CB4 /* Animation Protocols */,
 				FD8E985B1F48E3A300EBAA97 /* Controller */,
-				FD06E8631F4BB632009C6CB4 /* Extensions */,
-				FD8E985C1F48E3AB00EBAA97 /* View */,
 				FD8E984E1F48DF3800EBAA97 /* Assets.xcassets */,
 				FD8E984B1F48DF3800EBAA97 /* Main.storyboard */,
 				FD8E98501F48DF3800EBAA97 /* LaunchScreen.storyboard */,
@@ -102,16 +84,6 @@
 				FD8E98631F48E4D600EBAA97 /* LoginVC.swift */,
 			);
 			name = Controller;
-			sourceTree = "<group>";
-		};
-		FD8E985C1F48E3AB00EBAA97 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FD8E985F1F48E41F00EBAA97 /* FlashingLabel.swift */,
-				FD8E98591F48E39D00EBAA97 /* DataEntryTextField.swift */,
-				FD8E985D1F48E3C500EBAA97 /* LogInButton.swift */,
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,10 +159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD06E8621F4BB573009C6CB4 /* UIViewExtension.swift in Sources */,
-				FD8E985A1F48E39D00EBAA97 /* DataEntryTextField.swift in Sources */,
-				FD8E985E1F48E3C500EBAA97 /* LogInButton.swift in Sources */,
-				FD8E98601F48E41F00EBAA97 /* FlashingLabel.swift in Sources */,
 				FD06E8671F4BB699009C6CB4 /* Flashable.swift in Sources */,
 				FD8E98481F48DF3800EBAA97 /* AppDelegate.swift in Sources */,
 				FD06E8651F4BB691009C6CB4 /* Jitterable.swift in Sources */,
